@@ -45,21 +45,30 @@
 #print(number + " must be my lucky number!")
 #print("Have a nice day!)
 
-#The only issue with this lab is since I am using Visual Code Studio a lot of it's syntatic errors
-#are underlined red. This makes the lab rather trivial.
+#Since I am using Visual Code Studio a lot of it's syntatic errors are underlined red. This 
+#makes the lab rather trivial.
 
-number = int(input("Please type in a number: "))
+#number = int(input("Please type in a number: "))
 #This line did not define the number as an integer.
-if number>100:
+#if number>100:
 #Since the number was not defined as an integer, the > type could not determine whether it was true
 #or false
-    print("The number was greater than one hundred")
-    number - 100
-    print("Now its value has decreased by one hundred")
-    print(f"It's value is now {number}")
+#    print("The number was greater than one hundred")
+#    number - 100
+#    print("Now its value has decreased by one hundred")
+#    print(f"It's value is now {number}")
 #The issue here was combining the integer within the string. I just use f string for this because
 #it's what I remember and it works for integers and floats.
-print(f"{number} must be my lucky number!")
+#print(f"{number} must be my lucky number!")
 #Same thing with the integer and string on this line.
-print("Have a nice day!")
+#print("Have a nice day!")
 #This was missing a closing double quote.
+
+#This lab introduced the len function which can be used to find out the length of a string
+#and other things.
+
+#Please write a program which asks the user for a word and then prints out the number of
+#characters, if there was more than one typed in.
+#word=input("Please type your favorite word: ")
+#length=len(word)
+#print(f"There are {length} letters in {word}.")
