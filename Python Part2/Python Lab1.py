@@ -72,3 +72,10 @@
 #word=input("Please type your favorite word: ")
 #length=len(word)
 #print(f"There are {length} letters in {word}.")
+
+
+#Write a program which ask the user for a floating point number and then prints out the integer
+#part and the decimal part seperately. Use the Python int function.
+#temperature=float(input("Pick a number: "))
+#print(int(temperature))
+#print((temperature)-(int(temperature)))
