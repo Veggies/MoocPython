@@ -36,3 +36,52 @@
 #    number -= 1
 #    print(number)
 
+#Write a program which asks the user to type in an upper limit. The program then prints out numbers
+#so that each subsequent number is the previous one doubled, starting from the number1. That is,
+#the program prints out powers of two in order.
+#The program should stop when the next number to be printed is greater than the upper limit.
+#number = 1
+#imit = int(input("Limit: "))
+#while number < limit:
+#    number *= 2
+#    if number > limit:
+#        break
+#    print(number)
+
+#Please change the program from the previous exercise so that the user gets to input also
+# the base which is multiplied (in the previous program the base was always 2).
+#base = int(input("Base: "))
+#limit = int(input("Limit: "))
+#number = 1
+#while number < limit:
+#    number *= base
+#    if number > limit:
+#        break
+#    print(number)
+
+
+#Please write a program which asks the user to type in a limit. The program then calculates the 
+# sum of consecutive numbers (1 + 2 + 3 + ...) until the sum is at least equal to the limit set 
+# by the user.
+#limit = int(input("Limit: "))
+#number = 1
+#number2 = 1
+#while number <= limit:
+#    number2 += 1
+#    number += number2
+#print(number)
+
+#Please write a new version of the program in the previous exercise. In addition to the result 
+#it should also print out the calculation performed
+#limit = int(input("Limit: "))
+#number = 1
+#number2 = 1
+#string = '1'
+#while number <= limit:
+#    number2 += 1
+#    string += f" + {number2}"
+#    if number == limit:
+#        break
+#    number += number2
+#print(number)
+#print(f"{string} = {number}")
