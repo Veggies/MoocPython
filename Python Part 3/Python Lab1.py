@@ -27,3 +27,12 @@
 #    print(number)
 #    number -= 1
 #print("Now!")
+
+#Write a program which asks the user for a number. The program then prints out all integer
+#numbers greater than zero but smaller than the input
+#number = int(input("Number: "))
+#number2 = number
+#while number > 0 and number <= number2:
+#    number -= 1
+#    print(number)
+
