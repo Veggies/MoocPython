@@ -61,3 +61,34 @@
 ##but realized you have to redefine the variable at the start for override to occur.
 #print("*"+" "*middle+string+" "*middle+"*")
 #print("*"*30)
+
+#string = input("Please type in a string: ")
+#string2 = 1
+#while string2 <= len(string):
+#    print(string[0:string2])
+#    string2 += 1
+
+#string = input("Please type in a string: ")
+#string2 = -1
+#last = len(string)
+#while True:
+#    if string[string2:last] == string:
+#        print(string)
+#        break
+#    print(string[string2:last])
+#    string2 -= 1
+
+#string = input("Please type in a word: ")
+#if "a" in string:
+#    print("a found")
+#if "a" not in string:
+#    print("a not found")
+#if "e" in string:
+#    print("e found")
+#if "e" not in string:
+#    print("e not found")
+#if "o" in string:
+#    print("o found")
+#if "o" not in string:
+#    print("o not found")
+
