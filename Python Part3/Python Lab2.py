@@ -92,3 +92,43 @@
 #if "o" not in string:
 #    print("o not found")
 
+#string=input("Provide a word: ")
+#character=input("What letter are you looking for? ")
+#while True:
+#    index=string.find(character)
+#    char=string[index:index+3]
+#    if len(char) < 3:
+#        break
+#    print(char)
+#    break
+
+#string=input("Provide a word: ")
+#character=input("What letter are you looking for? ")
+#indexstart=0
+#index=string.find(character)
+#char=string[index:index+3]
+#while len(char) == 3:
+#    string=string[indexstart:]
+    #print(string)
+#    index=string.find(character)
+#    if index == -1:
+#        break
+#    char=string[index:index+3]
+#    if len(char) < 3:
+#        break
+#    print(char)
+#    indexstart +=1
+
+#string=input("Provide a word: ")
+#substring=input("Provide a substring to find: ")
+#index=string.find(substring)
+##print(index)
+#index1=index+1
+#while index >= -1:
+#    string=string[index+1:]
+#    index=string.find(substring)
+#    if index == -1:
+#        print("Doesn't occur twice.")
+#        break
+#    print(f"Second occurance occurs at index {index+index1}.")
+#    break
