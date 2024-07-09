@@ -29,3 +29,28 @@
 #        if sentence[index]==" ":
 #            print(sentence[index+1])
 #    index+=1
+
+#number=int(input("Please provide a number greater than 0: "))
+#numberminus=number
+#while numberminus > 0:
+#    numberminus-=1
+#    if numberminus > 0:
+#        number=number*numberminus
+#if number > 0:
+#    print(number)
+#print("Thanks and bye!")
+
+#number=int(input("Please provide a number greater than 1: "))
+#numberog=number
+#number=number-number+1
+#number2=number
+#while number != numberog:
+#    number2=number+1
+#    print(number2)
+#    print(number)
+#    number+=2
+#    if number == numberog:
+#        print(numberog)
+#    if number2>numberog or number>numberog:
+#        break
+
