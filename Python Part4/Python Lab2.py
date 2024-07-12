@@ -60,3 +60,52 @@
 #    start="*"
 #    print((" "*(x-minus1))+start)
 #spruce(10)
+
+#def greatest_number(a, b, c,):
+#    if a > b and a>c:
+#        return a
+#    if b > a and b>c:
+#        return b
+#    if c>a and c>b:
+#        return c
+#print(greatest_number(5,9,1))
+
+#def same_chars(a, b, c):
+#    if b >= len(a) or c >= len(a):
+#        return False
+#    if a[b] == a[c]:
+#        return True
+#    if a[b] != a[c]:
+#        return False
+#print(same_chars("programmer",0,14))
+
+#sentence="hamburger buns and mustard and ketchup"
+#def first_word(a):
+#    index=0
+#    while a[index] != " ":
+#        index+=1
+#    return a[0:index]
+#print(first_word(sentence))
+
+#def second_word(a):
+#    index=0
+#    while a[index] !=" ":
+#        index+=1
+#    endword1=index
+#    index+=1
+#    #print(index)
+#    while a[index] !=" ":
+#        index+=1
+#        #print(index)
+#        if index >= len(a):
+#            return a[endword1+1:index]
+    #print(index)
+#    return a[endword1+1:index]
+#print(second_word(sentence))
+
+#def last_word(a):
+#    index=-1
+#    while a[index]!=" ":
+#        index-=1
+#    return a[index+1:]
+#print(last_word(sentence))
