@@ -38,3 +38,28 @@
 #    list.append(word)
 #    total+=1
 #print(f"You typed in {total} words.")
+
+#list=[]
+#while True:
+#    number=int(input("New item: "))
+#    if number == 0:
+#        print("Bye!")
+#        break
+#    list.append(number)
+#    print(list)
+#    print(sorted(list))
+
+#def length(a):
+#    print(len(a))
+#list=[1,2,3,4,5]
+#length(list)
+
+#def mean(a):
+#    print(sum(a)/len(a))
+#list=[1,8,0,2,123]
+#mean(list)
+
+#def range_of_list(a):
+#    print(max(a)-min(a))
+#list=[1,2,3,4,5]
+#range_of_list(list)
